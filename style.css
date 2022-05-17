@@ -45,8 +45,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
-  max-width: 330px;
-  max-height: 550px;
+  width: 330px;
+  height: 550px;
   padding: 25px;
 }
 
@@ -59,9 +59,48 @@ body {
 }
 
 .wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.wrapper .container {
+  position: relative;
+  width: 100%;
   max-width: 280px;
   max-height: 280px;
-  border-radius: 15px;
+}
+
+.wrapper .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  background-color: #00fff7;
+}
+
+.wrapper .overlay svg {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.wrapper .container:hover .overlay {
+  opacity: .6;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 .wrapper .text {
@@ -75,6 +114,12 @@ body {
   color: white;
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+.wrapper .text h1:hover {
+  color: #00fff7;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 .wrapper .text span {
@@ -131,15 +176,20 @@ body {
 }
 
 .wrapper .credit img {
-  max-width: 25px;
-  max-height: 25px;
+  width: 25px;
+  height: 25px;
   border: 1px white solid;
   border-radius: 50px;
 }
 
-.wrapper .credit p {
-  padding-left: .5rem;
+.wrapper .credit #jules {
   color: white;
+}
+
+.wrapper .credit #jules:hover {
+  color: #00fff7;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 .wrapper .soft-blue {
