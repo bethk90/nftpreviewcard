@@ -45,8 +45,9 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
-  height: 90vh;
-  padding: 1em;
+  width: 330px;
+  height: 550px;
+  padding: 25px;
 }
 
 .wrapper hr {
@@ -59,22 +60,25 @@ body {
 }
 
 .wrapper img {
-  max-width: 50vh;
+  width: 280px;
+  height: 280px;
   border-radius: 15px;
 }
 
 .wrapper .text {
   text-align: left;
+  font-size: .9em;
+  font-weight: 300;
 }
 
 .wrapper .text h1 {
   color: white;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 600;
 }
 
 .wrapper .text span {
-  font-size: .8em;
+  line-height: 1.6;
 }
 
 .wrapper .bottom {
@@ -84,16 +88,39 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: .8em;
+  padding-top: 1.5em;
 }
 
 .wrapper .bottom .eth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #00fff7;
   font-weight: 400;
+  gap: 10px;
+}
+
+.wrapper .bottom .span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .wrapper .credit img {
   width: 25px;
+  height: 25px;
   border: 1px white solid;
   border-radius: 50px;
 }

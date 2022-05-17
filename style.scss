@@ -27,8 +27,9 @@ body {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    height: 90vh;
-    padding: 1em;
+    width: 330px;
+    height: 550px;
+    padding: 25px;
 
     hr {
         width: 100%;
@@ -40,40 +41,56 @@ body {
     }
 
     img {
-        max-width: 50vh;
+        width: 280px;
+        height: 280px;
         border-radius: 15px;
     }
 
     .text {
 
         text-align: left;
+        font-size: .9em;
+        font-weight: 300;
 
         h1 {
             color: hsl(0, 0%, 100%);
-            font-size: 1em;
+            font-size: 1.2em;
             font-weight: 600;
         }
 
         span {
-            font-size: .8em;
+            line-height: 1.6;
         }
+
     }
 
     .bottom {
         display: flex;
         justify-content: space-between;
-        font-size: .8em;
+        padding-top: 1.5em;
 
         .eth {
+        display: flex;
+        align-items: center;
         color: hsl(178, 100%, 50%);
         font-weight: 400;
+        gap: 10px;
+        }
+
+        .span {
+            display: flex;
+            align-items: center;
         }
 
     }
 
     .credit {
+
+        display: flex;
+
         img {
             width: 25px;
+            height: 25px;
             border: 1px hsl(0, 0%, 100%) solid;
             border-radius: 50px;
         }
