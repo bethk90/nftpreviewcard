@@ -25,6 +25,7 @@ body {
   padding: 1em;
   position: relative;
   height: 100vh;
+  font-family: 'Outfit', sans-serif;
 }
 
 .wrapper {
@@ -48,6 +49,15 @@ body {
   padding: 1em;
 }
 
+.wrapper hr {
+  width: 100%;
+  height: 1px;
+  background-color: #2f415b;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+
 .wrapper img {
   max-width: 50vh;
   border-radius: 15px;
@@ -60,30 +70,36 @@ body {
 .wrapper .text h1 {
   color: white;
   font-size: 1em;
+  font-weight: 600;
 }
 
-.wrapper .text p {
-  color: gray;
+.wrapper .text span {
   font-size: .8em;
 }
 
-.wrapper .eth {
+.wrapper .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: .8em;
 }
 
-.wrapper .eth span {
-  font-size: .6em;
+.wrapper .bottom .eth {
+  color: #00fff7;
+  font-weight: 400;
 }
 
 .wrapper .credit img {
   width: 25px;
   border: 1px white solid;
   border-radius: 50px;
+}
+
+.wrapper .soft-blue {
+  color: #8bacda;
 }
 
 .attribution {
