@@ -8,13 +8,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -35,8 +31,6 @@ Users should be able to:
 
 - Solution URL: https://github.com/bethk90/nftpreviewcard/
 - Live Site URL: https://bethk90.github.io/nftpreviewcard/
-
-## My process
 
 ### Built with
 
