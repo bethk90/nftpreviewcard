@@ -22,7 +22,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 1em;
+  padding: 1rem;
   position: relative;
   height: 100vh;
   font-family: 'Outfit', sans-serif;
@@ -45,8 +45,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
-  width: 330px;
-  height: 550px;
+  max-width: 330px;
+  max-height: 550px;
   padding: 25px;
 }
 
@@ -54,26 +54,26 @@ body {
   width: 100%;
   height: 1px;
   background-color: #2f415b;
-  margin: 0;
-  padding: 0;
+  margin: 0.8rem 0;
   border: 0px;
 }
 
 .wrapper img {
-  width: 280px;
-  height: 280px;
+  max-width: 280px;
+  max-height: 280px;
   border-radius: 15px;
 }
 
 .wrapper .text {
   text-align: left;
-  font-size: .9em;
+  font-size: 1rem;
   font-weight: 300;
+  padding-top: 1rem;
 }
 
 .wrapper .text h1 {
   color: white;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -88,7 +88,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 1.5em;
+  padding-top: .8rem;
 }
 
 .wrapper .bottom .eth {
@@ -99,30 +99,47 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #00fff7;
-  font-weight: 400;
+  font-size: .9rem;
+  font-weight: 600;
   gap: 10px;
 }
 
-.wrapper .bottom .span {
+.wrapper .bottom #days {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: .5rem;
 }
 
 .wrapper .credit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+  font-size: .9rem;
 }
 
 .wrapper .credit img {
-  width: 25px;
-  height: 25px;
+  max-width: 25px;
+  max-height: 25px;
   border: 1px white solid;
   border-radius: 50px;
+}
+
+.wrapper .credit p {
+  padding-left: .5rem;
+  color: white;
 }
 
 .wrapper .soft-blue {
@@ -133,7 +150,7 @@ body {
   font-size: 11px;
   text-align: center;
   position: absolute;
-  bottom: 0.5em;
+  bottom: 0.5rem;
 }
 
 .attribution a {
